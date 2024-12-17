@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
-import { navLinksdata } from '../../constants';
+import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { logo } from "../../assets/index";
+import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
@@ -43,7 +43,11 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img src={logo} alt="logo" className="w-[60px] h-[60px] rounded-full" />
+                <img
+                  src={logo}
+                  alt="logo"
+                  className="w-[60px] h-[60px] rounded-full"
+                />
               </div>
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
@@ -70,15 +74,25 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                  <a href="https://github.com/ashakansayyad" target="blank">
+                    <span className="bannerIcon">
+                      <FaGithub />
+                    </span>
+                  </a>
+
+                  <a href="https://x.com/i/flow/login?lang=en" target="blank">
+                    <span className="bannerIcon">
+                      <FaTwitter />
+                    </span>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/ashakan-sayyad-219742245/"
+                    target="blank"
+                  >
+                    <span className="bannerIcon">
+                      <FaLinkedinIn />
+                    </span>
+                  </a>
                 </div>
               </div>
               <span
@@ -93,6 +107,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
