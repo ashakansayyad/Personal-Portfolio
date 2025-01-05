@@ -16,13 +16,13 @@ const Achievement = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard
-            title="2-Day National Innovation Challenge"
+            title="Finalist National Innovation Challenge"
             subTitle="Organized By Techradiance at IIT Bombay"
             result="Certified"
             des="Developed a Face Recognition App designed for employee management and student attendance systems. The app validates user identity by matching facial data and grants permissions accordingly. Successfully presented the working model with real-time face detection capabilities."
         />
           <ResumeCard
-            title="2-Day Python Django Bootcamp"
+            title="Finalist Python Django Bootcamp"
             subTitle="Organized By Department of Computer Science, AISC"
             result="Certified"
             des="Gained hands-on experience in building web applications using the Django framework. Learned about MVC architecture, ORM, and REST API integration. Developed multiple web projects, including a basic CRUD-based task manager application."
