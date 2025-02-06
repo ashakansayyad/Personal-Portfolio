@@ -35,7 +35,7 @@ const Projects = () => {
           des="An interactive app for ordering food online with real-time tracking. Developed using React, Express.js, and MongoDB for seamless food ordering and delivery."
           src={foodDelivery}
           github="https://github.com/ashakansayyad/Food-Delivery-App"
-          live="https://pro-manger-app-frontend.vercel.app/login"
+          live="https://food-delivery-app-three-sandy.vercel.app/"
         />
         <ProjectsCard
           title="Job Finder App"
@@ -44,19 +44,19 @@ const Projects = () => {
           github="https://github.com/ashakansayyad/Job_Finder_MERN_App_Frontend"
           live="https://job-finder-mern-app-frontend.vercel.app/login"
         />
+          <ProjectsCard
+            title="Shopeer E-commerce"
+            des="An e-commerce platform for buying and selling products with secure checkout and a user-friendly interface. Built using React."
+            src={shopeerEcommers}
+            github="https://github.com/ashakansayyad/React-Shopper-App"
+            live="https://e-commerce-app-lake-two.vercel.app/"
+          />
         <ProjectsCard
           title="React Pocket Notes"
           des="A note-taking app to create, update, and delete notes. Features include real-time updates and local storage support using React and state management."
           src={pocketNotes}
           github="https://github.com/ashakansayyad/react-pocket-notes-app"
           live="https://ashakansayyad.github.io/react-pocket-notes-app/"
-        />
-        <ProjectsCard
-          title="Shopeer E-commerce"
-          des="An e-commerce platform for buying and selling products with secure checkout and a user-friendly interface. Built using React."
-          src={shopeerEcommers}
-          github="https://github.com/ashakansayyad/React-Shopper-App"
-          live="https://react-shopper-app-rho.vercel.app/"
         />
         <ProjectsCard
           title="React Super App"
