@@ -7,6 +7,7 @@ import {
   pocketNotes,
   shopeerEcommers,
   superApp,
+  formBot,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -36,6 +37,13 @@ const Projects = () => {
           src={foodDelivery}
           github="https://github.com/ashakansayyad/Food-Delivery-App"
           live="https://food-delivery-app-three-sandy.vercel.app/"
+        />
+        <ProjectsCard
+          title="FormBot App"
+          des="A user-friendly form builder for creating and managing forms. real-time sharing and manging with dashboard. Built using React, Node.js, and MongoDB for efficient form management."
+          src={formBot}
+          github="https://github.com/ashakansayyad/FormBot"
+          live="#"
         />
         <ProjectsCard
           title="Job Finder App"

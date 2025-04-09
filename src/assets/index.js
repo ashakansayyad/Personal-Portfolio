@@ -7,6 +7,7 @@ import pocketNotes from './images/projects/pocketNotes.png'
 import shopeerEcommers from './images/projects/shopeerEcommerse.png'
 import superApp from './images/projects/superApp.png'
 import contactImg from "./images/contact/contactImg.png";
+import formBot from "./images/projects/formBot.png";
 
 export {
   logo,
@@ -18,4 +19,5 @@ export {
   shopeerEcommers,
   superApp,
   contactImg,
+  formBot,
 };
