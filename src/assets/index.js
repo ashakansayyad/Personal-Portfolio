@@ -8,7 +8,7 @@ import shopeerEcommers from './images/projects/shopeerEcommerse.png'
 import superApp from './images/projects/superApp.png'
 import contactImg from "./images/contact/contactImg.png";
 import formBot from "./images/projects/formBot.png";
-import myPassPhoto from './images/without_back_my_passport_phot.png'
+import myPassPhoto from './images/NO-BACKGROUND-IMAGE.png'
 
 export {
   logo,

@@ -1,5 +1,5 @@
 import React from 'react'
-import {myPassPhoto  } from "../../assets/index";
+import {myPassPhoto} from "../../assets/index";
 
 const RightBanner = () => {
   return (
